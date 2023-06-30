@@ -52,14 +52,14 @@ def play_door_game():
 
       n_games_keep_strategy += 1
       if(car_door == first_chosen_door):
-        winnings_keep_strategy =+ 1
+        winnings_keep_strategy += 1
       keep_strategy_winning_rate.append(winnings_keep_strategy/n_games_keep_strategy)
 
     else:
 
       n_games_change_strategy += 1
       if(car_door != first_chosen_door):
-        winnings_change_strategy =+ 1
+        winnings_change_strategy += 1
       change_strategy_winning_rate.append(winnings_change_strategy/n_games_change_strategy)
 
   display_strategy_scores(change_strategy_winning_rate, keep_strategy_winning_rate)
