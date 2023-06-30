@@ -62,6 +62,8 @@ def play_door_game():
         winnings_change_strategy += 1
       change_strategy_winning_rate.append(winnings_change_strategy/n_games_change_strategy)
 
+    print(f'The door with the car was {car_door}.')
+
   display_strategy_scores(change_strategy_winning_rate, keep_strategy_winning_rate)
 
   print(change_strategy_winning_rate)
