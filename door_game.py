@@ -8,6 +8,8 @@ def print_separator():
 def display_strategy_scores(change_strategy_winning_rate, keep_strategy_winning_rate):
   plt.plot(change_strategy_winning_rate, color='green', label='Changing')
   plt.plot(keep_strategy_winning_rate, color='blue', label='Keeping')
+  plt.axhline(y=2/3, linestyle='--', color='gray')
+  plt.axhline(y=1/3, linestyle='--', color='gray')
   plt.xlabel('Rounds')
   plt.ylabel('Winning proportion')
   plt.legend()
