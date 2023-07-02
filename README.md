@@ -1,6 +1,6 @@
 # code-lab
 
-**code-lab** repository contains 
+**code-lab** repository contains multiple simple code experiments.
 
 The repository includes the following notebooks:
 
